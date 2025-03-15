@@ -87,12 +87,12 @@ function Hero() {
                 />
               </HeroCamera>
 
-              <group>
+              {/* <group>
                 <Target position={sizes.targetPosition} />
                 <ReactLogo position={sizes.reactLogoPosition} />
                 <Rings position={sizes.ringPosition} />
                 <Cube position={sizes.cubePosition} />
-              </group>
+              </group> */}
 
               <ambientLight intensity={1} />
               <directionalLight position={[10, 10, 10]} intensity={10} />
